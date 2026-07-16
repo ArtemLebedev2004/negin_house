@@ -1,0 +1,80 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme inline {
+    --font-sans:
+        Instrument Sans, ui-sans-serif, system-ui, sans-serif,
+        'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+        'Noto Color Emoji';
+}
+
+@font-face {
+    font-family: "Alice";
+    src: url(../assets/fonts/Alice-Regular.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../assets/fonts/MONTSERRAT-REGULAR.TTF);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../assets/fonts/MONTSERRAT-SEMIBOLD.TTF);
+    font-weight: 600;
+}
+
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../assets/fonts/MONTSERRAT-EXTRABOLD.TTF);
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../assets/fonts/MONTSERRAT-BLACK.TTF);
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: "Gentium Plus";
+    src: url(../assets/fonts/GentiumPlus-R.ttf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Gentium Plus Italic";
+    src: url(../assets/fonts/GentiumPlus-i.ttf);
+    font-weight: normal;
+}
+
+body {
+    font-family: "Montserrat";
+    font-weight: normal;
+    font-size: 4.5vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Alice";
+    font-size: 12.5vw;
+    line-height: 14vw;
+}
+
+.corona {
+    width: 20vw;
+}
+
+.policy_h2 {
+    font-size: 7vw;
+    line-height: 10vw;
+}
+
+@theme {
+    --color-blue: #3DA394;
+    --color-liblue: #93E6D9;
+}
